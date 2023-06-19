@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.containerlogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 3rem;
+    background-color: #1ce9eb;
+    height: 100vh;
+}
+
+
+#entrada{
+    color: #ffff
+}
+#cadastrar{
+    color: #ffff;
+}
+
+.tagsenha{
+
+}
