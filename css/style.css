@@ -172,35 +172,162 @@ html {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    padding-top: 3rem;
-    background-color: #223C5B;
-    height: 100vh;
+    padding: 3rem;
+    background: linear-gradient(180deg, #213B5A 64.06%, rgba(255, 255, 255, 0.00) 100%);
+    color: #ffffff;
+    height: auto;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.relembre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.tagsenha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.buttongmail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 290px;
+    height: 53px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #AA8049 3.29%, #D6B871 33.99%, #F4EDA2 67.57%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    outline: none;
+    padding: 10px;
+}
+
+.buttongmail button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 46.603px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: rgba(255, 255, 255, 0.50);
+    color: #142D4A;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Inter';
+}
+
+.buttongmail button img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.buttonfacebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 290px;
+    height: 53px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #AA8049 3.29%, #D6B871 33.99%, #F4EDA2 67.57%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    outline: none;
+    padding: 10px;
+}
+
+.buttonfacebook button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 46.603px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: rgba(255, 255, 255, 0.50);
+    color: #142D4A;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Inter';
+}
+
+.buttonfacebook button img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
 }
 
 /* id */
 
 #entrada {
-    background: linear-gradient(180deg, rgba(244, 237, 162, 0.44) 0%, rgba(170, 128, 73, 0.69) 1%, #F4EDA2 100%);
-    color: #223C5B;
-    font-family: 'Inter';
+    border-radius: 35px;
+    border: 1px solid #654418;
+    background: linear-gradient(90deg, #AA8049 0%, #F4EDA2 92.71%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #163355;
     font-size: 24px;
+    font-family: 'Inter';
     font-weight: bold;
-    border-radius: 10px;
-    border: none;
     outline: none;
     padding: 10px;
+    width: 184px;
+    height: 46px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+#entrada:active {
+    background: linear-gradient(90deg, #F4EDA2 0%, #AA8049 92.71%);
 }
 
 #cadastrar {
-    background: linear-gradient(180deg, rgba(244, 237, 162, 0.44) 0%, rgba(170, 128, 73, 0.69) 1%, #F4EDA2 100%);
+    border-radius: 15px;
+    border: 1px solid #819AB8;
+    background: linear-gradient(90deg, #98B7DC 0%, #F4EDA2 90%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     color: #223C5B;
     font-family: 'Inter';
     font-size: 24px;
     font-weight: bold;
-    border-radius: 10px;
-    border: none;
     outline: none;
     padding: 10px;
+    width: 184px;
+    height: 46px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+#cadastrar:active {
+    background: linear-gradient(90deg, #F4EDA2 0%, #98B7DC 90%);
 }
 
 #search {
@@ -213,4 +340,43 @@ html {
     font-size: 18px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     margin-left: 10px;
+}
+
+#femail {
+    width: 290px;
+    height: 58px;
+    flex-shrink: 0;
+    background: #819AB8;
+    border-radius: 10px;
+    border-color: #D6B871;
+    border-width: 5px;
+    outline: none;
+    color: #000000;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+#lsenha {
+    width: 290px;
+    height: 58px;
+    flex-shrink: 0;
+    background: #819AB8;
+    border-radius: 10px;
+    border-color: #D6B871;
+    border-width: 5px;
+    outline: none;
+    color: #000000;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#lembreme {
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
 }

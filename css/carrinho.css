@@ -1,0 +1,69 @@
+.remover-tudo {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+.hproduto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    width: 80%;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #C9E1FE;
+}
+
+.hproduto-img {
+    height: 80%;
+    object-fit: contain;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    margin: 0 0 0 10px;
+}
+
+.comprar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+    padding: 10px;
+}
+
+.comprar p {
+    font-size: 24px;
+    font-family: 'Inter';
+    font-weight: bold;
+    color: #163355;
+}
+
+#comprar {
+    border-radius: 35px;
+    border: 1px solid #654418;
+    background: linear-gradient(90deg, #AA8049 0%, #F4EDA2 92.71%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #163355;
+    font-size: 24px;
+    font-family: 'Inter';
+    font-weight: bold;
+    outline: none;
+    padding: 10px;
+    width: 184px;
+    height: 46px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
