@@ -1,0 +1,132 @@
+h2 {
+    color: #213B5A;
+    font-size: 28px;
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    border-color: #6E7A98;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid #819AB8;
+}
+
+td {
+    color: #213B5A;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 600;
+    background-color: #C9E1FE;
+    border: 1px solid #819AB8;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.5rem;
+    padding: 0 200px;
+}
+
+.produto-img {
+    height: 400px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.produto-title {
+    color: #213B5A;
+    font-size: 32px;
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+.produto-price1 {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 600;
+}
+
+.produto-price2 {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Inter';
+}
+
+.frete {
+    color: #000;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 600;
+}
+
+.comprar {
+    width: 365px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    border: 1px solid #654418;
+    background: linear-gradient(90deg, #AA8049 0%, #F4EDA2 92.71%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #163355;
+    font-size: 32px;
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+.add-carrinho {
+    width: 365px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    border: 1px solid #819AB8;
+    background: #C9E1FE;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #163355;
+    font-size: 32px;
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+.btn-calcular {
+    width: 365px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    border: 1px solid #819AB8;
+    background: linear-gradient(90deg, #98B7DC 0%, #F4EDA2 90%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #163355;
+    font-size: 32px;
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+.aval {
+    border-color: #C9E1FE;
+}
+
+#cep {
+    width: 333px;
+    height: 49px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: #C9E1FE;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 600;
+    padding: 0 10px;
+}
